@@ -1,24 +1,24 @@
 import { useSignal } from "@preact/signals";
-import Counter from "../islands/Counter.tsx";
+import { apply, tw } from 'twind'
+import YesNoBtns from "../islands/YesNoBtns.tsx";
 
 export default function Home() {
-  const count = useSignal(3);
+  const intVal = useSignal(0);
   return (
-    <div class="px-4 py-8 mx-auto bg-[#86efac]">
-      <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-        <img
-          class="my-6"
-          src="/logo.svg"
-          width="128"
-          height="128"
-          alt="the Fresh logo: a sliced lemon dripping with juice"
-        />
-        <h1 class="text-4xl font-bold">Welcome to Fresh</h1>
-        <p class="my-4">
-          Try updating this message in the
-          <code class="mx-2">./routes/index.tsx</code> file, and refresh.
+    <div class={tw`px-4 mx-auto bg-pink-50`}>
+      <div class={tw`max-w-screen-sm mx-auto flex flex-col items-center justify-center`}>
+        <img class={tw`my-6`} src="/imgs/IMG_1756.JPG" />
+        <h1 class={tw`text-4xl font-bold`}>❤️‍🔥공지❤️‍🔥</h1>
+        <p class={tw`my-4`}>
+          긴급 퀘스트 발생!!
         </p>
-        <Counter count={count} />
+        <p>
+          모든 지문을 전부 통과해야 다음 장소로 이동할 수 있습니다.
+        </p>
+        <p>
+          진행하시겠습니까?
+        </p>
+        <YesNoBtns int={intVal} />
       </div>
     </div>
   );

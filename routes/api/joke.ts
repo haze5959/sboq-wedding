@@ -14,6 +14,7 @@ const JOKES = [
   "An SEO expert walked into a bar, pub, inn, tavern, hostelry, public house.",
 ];
 
+// http://localhost:8000/api/joke
 export const handler = (_req: Request, _ctx: HandlerContext): Response => {
   const randomIndex = Math.floor(Math.random() * JOKES.length);
   const body = JOKES[randomIndex];
