@@ -18,7 +18,7 @@ export default function TextList(props: IntProps) {
       return (
         <div class={tw`text-center`}>
           <p class={tw`my-4 font-bold`}>
-            싸워도 항상 화해할 것을 맹새하십니까?
+            싸워도 항상 화해할 것을 맹세하십니까?
           </p>
         </div>
       );
@@ -26,7 +26,7 @@ export default function TextList(props: IntProps) {
       return (
         <div class={tw`text-center`}>
           <p class={tw`my-4 font-bold`}>
-            항상 서로만 바라보고 의지할 것을 맹새하십니까?
+            항상 서로만 바라보고 의지할 것을 맹세하십니까?
           </p>
         </div>
       );
@@ -34,7 +34,7 @@ export default function TextList(props: IntProps) {
       return (
         <div class={tw`text-center`}>
           <p class={tw`my-4 font-bold`}>
-            서로 존중하고 서로 이끌어줄 것을 맹새하십니까?
+            서로 존중하고 서로 이끌어줄 것을 맹세하십니까?
           </p>
         </div>
       );
@@ -42,7 +42,7 @@ export default function TextList(props: IntProps) {
       return (
         <div class={tw`text-center`}>
           <p class={tw`my-4 font-bold`}>
-            행복한 결혼 생활을 이어나갈 것을 맹새하십니까?
+            행복한 결혼 생활을 이어나갈 것을 맹세하십니까?
           </p>
         </div>
       );
@@ -50,7 +50,7 @@ export default function TextList(props: IntProps) {
       return (
         <div class={tw`text-center`}>
           <p class={tw`my-4 font-bold`}>
-            둘이서 같이 놀러다니고 취미생활 즐기고 즐거운 나날을 이어나갈 것을 맹새하십니까?
+            둘이서 같이 놀러다니고 취미생활 즐기고 즐거운 나날을 이어나갈 것을 맹세하십니까?
           </p>
         </div>
       );
