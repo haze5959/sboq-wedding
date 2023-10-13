@@ -1,4 +1,5 @@
 import { AppProps } from "$fresh/server.ts";
+import { tw } from 'twind'
 
 export default function App({ Component }: AppProps) {
   return (
@@ -8,7 +9,7 @@ export default function App({ Component }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>sboq</title>
       </head>
-      <body>
+      <body class={tw`bg-pink-50`}>
         <Component />
       </body>
     </html>
