@@ -8,7 +8,7 @@ import TextList from "../islands/TextList.tsx";
 export default function Home() {
   const intVal = useSignal(0);
   return (
-    <div class={tw`h-screen px-4 mx-auto bg-pink-50`}>
+    <div class={tw`h-screen px-4 mx-auto`}>
       <GNB int={intVal}/>
       <div class={tw`py-12 max-w-screen-sm mx-auto flex flex-col items-center justify-center`}>
         <ImgList int={intVal} />

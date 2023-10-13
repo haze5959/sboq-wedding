@@ -58,9 +58,12 @@ export default function TextList(props: IntProps) {
       return (
         <div class={tw`text-center`}>
           <p class={tw`my-4 font-bold`}>
-            보상이 도착하였습니다.
+            보상이 도착하였습니다.🎉
           </p>
-          <p>오규차의 뒷트렁크를 열어보세요!</p>
+          <p class={tw`my-4 text-lg font-bold`}>
+            안양시청 주차장에서 오규차를 찾으세요. 🚙
+          </p>
+          <p>그리고 차의 뒷트렁크를 열어보세요!</p>
         </div>
       );
     default:
